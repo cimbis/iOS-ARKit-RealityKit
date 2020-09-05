@@ -15,6 +15,7 @@
 		4952CF8D24FFC52F005E3295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4952CF8B24FFC52F005E3295 /* LaunchScreen.storyboard */; };
 		497956DD2503BAE500BCE3D0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 497956DC2503BAE500BCE3D0 /* Default-568h@2x.png */; };
 		D395F6DC5BAC921910E74C44 /* ViewController+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39259581CDDDA89F11CC90D /* ViewController+ARSCNViewDelegate.swift */; };
+		D39E05052786BEC531CA8043 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3945B527808E30CEB84EECD /* FocusSquare.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4952CF8E24FFC52F005E3295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		497956DC2503BAE500BCE3D0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D39259581CDDDA89F11CC90D /* ViewController+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
+		D3945B527808E30CEB84EECD /* FocusSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,14 +63,15 @@
 		4952CF7F24FFC52E005E3295 /* DesignCodeAR */ = {
 			isa = PBXGroup;
 			children = (
-				4952CF8024FFC52E005E3295 /* AppDelegate.swift */,
+				4952CF8E24FFC52F005E3295 /* Info.plist */,
 				4952CF8224FFC52E005E3295 /* art.scnassets */,
+				4952CF8024FFC52E005E3295 /* AppDelegate.swift */,
+				D3945B527808E30CEB84EECD /* FocusSquare.swift */,
 				4952CF8424FFC52E005E3295 /* ViewController.swift */,
-				4952CF8624FFC52E005E3295 /* Main.storyboard */,
+				D39259581CDDDA89F11CC90D /* ViewController+ARSCNViewDelegate.swift */,
 				4952CF8924FFC52F005E3295 /* Assets.xcassets */,
 				4952CF8B24FFC52F005E3295 /* LaunchScreen.storyboard */,
-				4952CF8E24FFC52F005E3295 /* Info.plist */,
-				D39259581CDDDA89F11CC90D /* ViewController+ARSCNViewDelegate.swift */,
+				4952CF8624FFC52E005E3295 /* Main.storyboard */,
 			);
 			path = DesignCodeAR;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				4952CF8524FFC52E005E3295 /* ViewController.swift in Sources */,
 				4952CF8124FFC52E005E3295 /* AppDelegate.swift in Sources */,
 				D395F6DC5BAC921910E74C44 /* ViewController+ARSCNViewDelegate.swift in Sources */,
+				D39E05052786BEC531CA8043 /* FocusSquare.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,27 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cb25c65-5fc2-4385-bea5-0c9962c7733f" name="Default Changelist" comment="" />
+    <list default="true" id="4cb25c65-5fc2-4385-bea5-0c9962c7733f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/AppIcon.appiconset/AngleARIcon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/AppIcon.appiconset/AngleARIcon@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/Button/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/Button/add.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/Button/add.imageset/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/Button/add.imageset/add@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/Button/add.imageset/add@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/Button/delete.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/Button/delete.imageset/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/Button/delete.imageset/delete@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/Button/delete.imageset/delete@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/Button/reset.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/Button/reset.imageset/reset.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/Button/reset.imageset/reset@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/Button/reset.imageset/reset@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/Model/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/fs/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/fs/close.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/fs/close.imageset/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/fs/open.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/fs/open.imageset/open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/grid.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/grid.imageset/grid.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AR-TryOut-warm-jelly.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/AR-TryOut-warm-jelly.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AR-TryOut-warm-jelly.xcodeproj/project.xcworkspace/xcuserdata/jc.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/AR-TryOut-warm-jelly.xcodeproj/project.xcworkspace/xcuserdata/jc.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/DesignCodeAR/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignCodeAR/ViewController+ARSCNViewDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/DesignCodeAR/ViewController+ARSCNViewDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignCodeAR/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/DesignCodeAR/ViewController.swift" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_80FC9B41-C6A6-40DE-A86B-E06EF005EFFB" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_00008030-001A48D01E32802E" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
   <component name="ProjectId" id="1h5PhZDetnjNMw7rjnDVXYZzpbe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="DesignCodeAR" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="AR-TryOut-warm-jelly" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/AR-TryOut-warm-jelly.xcodeproj" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Swift" />
   </component>
   <component name="RunManager">
@@ -36,6 +74,9 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4cb25c65-5fc2-4385-bea5-0c9962c7733f" name="Default Changelist" comment="" />
@@ -46,7 +87,9 @@
       <workItem from="1599298100246" duration="218000" />
       <workItem from="1599298631119" duration="5000" />
       <workItem from="1599298695819" duration="6864000" />
-      <workItem from="1599308892583" duration="666000" />
+      <workItem from="1599308892583" duration="3738000" />
+      <workItem from="1599341700098" duration="3986000" />
+      <workItem from="1599345770112" duration="1780000" />
     </task>
     <servers />
   </component>
@@ -58,41 +101,45 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="849" y="320" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1599299329794" />
-    <state width="2558" height="424" key="GridCell.Tab.0.bottom" timestamp="1599308115983">
+    <state width="2560" height="424" key="GridCell.Tab.0.bottom" timestamp="1599347831655">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2558" height="424" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1599308115983" />
-    <state width="2558" height="424" key="GridCell.Tab.0.center" timestamp="1599308115982">
+    <state width="2560" height="424" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1599347831655" />
+    <state width="2560" height="424" key="GridCell.Tab.0.center" timestamp="1599347831654">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2558" height="424" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1599308115982" />
-    <state width="2558" height="424" key="GridCell.Tab.0.left" timestamp="1599308115981">
+    <state width="2560" height="424" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1599347831654" />
+    <state width="2560" height="424" key="GridCell.Tab.0.left" timestamp="1599347831654">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2558" height="424" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1599308115981" />
-    <state width="2558" height="424" key="GridCell.Tab.0.right" timestamp="1599308115982">
+    <state width="2560" height="424" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1599347831654" />
+    <state width="2560" height="424" key="GridCell.Tab.0.right" timestamp="1599347831654">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2558" height="424" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1599308115982" />
-    <state width="2558" height="424" key="GridCell.Tab.1.bottom" timestamp="1599308115984">
+    <state width="2560" height="424" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1599347831654" />
+    <state width="2560" height="424" key="GridCell.Tab.1.bottom" timestamp="1599347831576">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2558" height="424" key="GridCell.Tab.1.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1599308115984" />
-    <state width="2558" height="424" key="GridCell.Tab.1.center" timestamp="1599308115983">
+    <state width="2560" height="424" key="GridCell.Tab.1.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1599347831576" />
+    <state width="2560" height="424" key="GridCell.Tab.1.center" timestamp="1599347831576">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2558" height="424" key="GridCell.Tab.1.center/0.23.2560.1417@0.23.2560.1417" timestamp="1599308115983" />
-    <state width="2558" height="424" key="GridCell.Tab.1.left" timestamp="1599308115983">
+    <state width="2560" height="424" key="GridCell.Tab.1.center/0.23.2560.1417@0.23.2560.1417" timestamp="1599347831576" />
+    <state width="2560" height="424" key="GridCell.Tab.1.left" timestamp="1599347831576">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2558" height="424" key="GridCell.Tab.1.left/0.23.2560.1417@0.23.2560.1417" timestamp="1599308115983" />
-    <state width="2558" height="424" key="GridCell.Tab.1.right" timestamp="1599308115984">
+    <state width="2560" height="424" key="GridCell.Tab.1.left/0.23.2560.1417@0.23.2560.1417" timestamp="1599347831575" />
+    <state width="2560" height="424" key="GridCell.Tab.1.right" timestamp="1599347831576">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2558" height="424" key="GridCell.Tab.1.right/0.23.2560.1417@0.23.2560.1417" timestamp="1599308115984" />
-    <state x="781" y="370" width="1502" height="980" key="SettingsEditor" timestamp="1599309526282">
+    <state width="2560" height="424" key="GridCell.Tab.1.right/0.23.2560.1417@0.23.2560.1417" timestamp="1599347831576" />
+    <state x="781" y="370" width="1502" height="980" key="SettingsEditor" timestamp="1599345963247">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="781" y="370" width="1502" height="980" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1599309526282" />
+    <state x="781" y="370" width="1502" height="980" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1599345963247" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1599344198336">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1599344198336" />
   </component>
 </project>

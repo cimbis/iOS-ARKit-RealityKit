@@ -16,6 +16,8 @@ class ViewController: UIViewController {
 
 
     @IBOutlet var sceneView: ARSCNView!
+    var focusSquare: FocusSquare?
+    var screenCenter: CGPoint!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +36,7 @@ class ViewController: UIViewController {
         // and automatically update the lighting as well
         sceneView.automaticallyUpdatesLighting = true
 
+        screenCenter = view.center
 
         // Create a new scene
         let scene = SCNScene(named: "art.scnassets/iPhoneX/iphone.scn")!
@@ -48,7 +51,8 @@ class ViewController: UIViewController {
         // Create a session configuration
         let configuration = ARWorldTrackingConfiguration()
 
-        configuration.planeDetection = [.horizontal, .vertical]
+        //        configuration.planeDetection = [.horizontal, .vertical]
+        configuration.planeDetection = .horizontal
 
         // Run the view's session
         sceneView.session.run(configuration)
@@ -59,6 +63,40 @@ class ViewController: UIViewController {
 
         // Pause the view's session
         sceneView.session.pause()
+    }
+
+    override func viewWillTransition(
+            to size: CGSize,
+            with coordinator: UIViewControllerTransitionCoordinator
+    ) {
+        super.viewWillTransition(to: size, with: coordinator)
+
+        self.screenCenter = CGPoint(
+                x: size.width / 2,
+                y: size.height / 2
+        )
+    }
+
+    func updateFocusSquare() {
+        guard let focusSquareLocal = self.focusSquare
+        else {
+            return
+        }
+
+        let hitTest = sceneView.hitTest(
+                self.screenCenter,
+                types: .existingPlaneUsingExtent
+        )
+
+        if let hitTestResult = hitTest.first {
+            print("focus square hits a plane")
+            let canAddNewModel = hitTestResult.anchor is ARPlaneAnchor
+            focusSquareLocal.isClosed = canAddNewModel
+        }
+        else {
+            print("focus square hits does not hit a plane")
+            focusSquareLocal.isClosed = false
+        }
     }
 
 
