@@ -16,6 +16,7 @@ class ViewController: UIViewController {
 
 
     @IBOutlet var sceneView: ARSCNView!
+    
     var focusSquare: FocusSquare?
     var screenCenter: CGPoint!
 
@@ -39,10 +40,10 @@ class ViewController: UIViewController {
         screenCenter = view.center
 
         // Create a new scene
-        let scene = SCNScene(named: "art.scnassets/iPhoneX/iphone.scn")!
+        // let scene = SCNScene(named: "art.scnassets/iPhoneX/iphone.scn")!
 
         // Set the scene to the view
-        sceneView.scene = scene
+        // sceneView.scene = scene
     }
 
     override func viewWillAppear(_ animated: Bool) {

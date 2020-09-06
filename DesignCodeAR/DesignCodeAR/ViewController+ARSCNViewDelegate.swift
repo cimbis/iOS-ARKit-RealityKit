@@ -33,7 +33,8 @@ extension ViewController: ARSCNViewDelegate {
 
         // need to rotate horizontal plane nodes by 90 degrees
         // planeNode.eulerAngles.x = -.pi / 2
-        planeNode.eulerAngles.x = GLKMathDegreesToRadians(90)
+        planeNode.eulerAngles.x = GLKMathDegreesToRadians(-90)
+        
         return planeNode
     }
 
@@ -43,19 +44,19 @@ extension ViewController: ARSCNViewDelegate {
         - Parameter for anchor: anchor of detected surface
         - Parameter on node: parent node to which the plane will be attached
     */
-    private func addPlane(for anchor: ARAnchor, on node: SCNNode) {
-        guard anchor is ARPlaneAnchor
-        else {
-            return
-        }
-
-        print("plane detected")
-
-        let planeAnchor = anchor as! ARPlaneAnchor
-        let planeNode = createPlane(planeAnchor: planeAnchor)
-
-        node.addChildNode(planeNode)
-    }
+//    private func addPlane(for anchor: ARAnchor, on node: SCNNode) {
+//        guard anchor is ARPlaneAnchor
+//        else {
+//            return
+//        }
+//
+//        print("plane detected")
+//
+//        let planeAnchor = anchor as! ARPlaneAnchor
+//        let planeNode = createPlane(planeAnchor: planeAnchor)
+//
+//        node.addChildNode(planeNode)
+//    }
 
     /**
         ## "add focus square if necessary" helper method
@@ -83,6 +84,11 @@ extension ViewController: ARSCNViewDelegate {
             didAdd node: SCNNode,
             for anchor: ARAnchor
     ) {
+        guard anchor is ARPlaneAnchor
+        else {
+            return
+        }
+        print("Horizontal surface detected")
 //        addPlane(for: anchor, on: node)
         addFocusSquareIfNecessary()
     }
@@ -101,10 +107,10 @@ extension ViewController: ARSCNViewDelegate {
         else {
             return
         }
-
-        print("surface updated")
-
-        // remove old nodes
+//
+//        print("surface updated")
+//
+//         remove old nodes
 //        node.enumerateChildNodes { childNode, pointer in
 //            childNode.removeFromParentNode()
 //        }
@@ -130,9 +136,8 @@ extension ViewController: ARSCNViewDelegate {
         else {
             return
         }
-
         print("surface removed")
-
+//
 //        node.enumerateChildNodes { childNode, _ in
 //            childNode.removeFromParentNode()
 //        }

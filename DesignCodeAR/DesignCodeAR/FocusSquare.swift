@@ -8,6 +8,12 @@ import SceneKit
 
 class FocusSquare: SCNNode {
 
+    var isClosed: Bool = true {
+        didSet {
+            geometry?.firstMaterial?.diffuse.contents = self.isClosed ? UIImage(named: "fs/close") : UIImage(named: "fs/open")
+        }
+    }
+    
     override init() {
         super.init()
 
@@ -21,13 +27,5 @@ class FocusSquare: SCNNode {
 
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
-    }
-
-    var isClosed: Bool = true {
-        didSet {
-            geometry?.firstMaterial?.diffuse.contents = self.isClosed
-            ? UIImage(named: "fs/close")
-            : UIImage(named: "fs/open")
-        }
     }
 }
