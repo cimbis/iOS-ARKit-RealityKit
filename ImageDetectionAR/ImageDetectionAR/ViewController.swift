@@ -60,8 +60,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     }
 
     // MARK: - ARSCNViewDelegate
-
-    // Override to create and configure nodes for anchors added to the view's session.
     func renderer(
             _ renderer: SCNSceneRenderer,
             nodeFor anchor: ARAnchor
