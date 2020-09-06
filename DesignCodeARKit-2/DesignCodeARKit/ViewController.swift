@@ -9,6 +9,8 @@ class ViewController: UIViewController {
     var focusSquare: FocusSquare?
     var screenCenter: CGPoint!
 
+    var modelsInScene: Array<SCNNode> = []
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,10 +28,10 @@ class ViewController: UIViewController {
         screenCenter = view.center
 
         // Create a new scene
-        //        let scene = SCNScene(named: "art.scnassets/iPhoneX/iPhoneX.scn")!
+        // let scene = SCNScene(named: "art.scnassets/iPhoneX/iPhoneX.scn")!
 
         // Set the scene to the view
-        //        sceneView.scene = scene
+        // sceneView.scene = scene
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -62,16 +64,27 @@ class ViewController: UIViewController {
             return
         }
 
+        guard let pointOfView = sceneView.pointOfView
+        else {
+            return
+        }
+
+        let firstVisibleModel = modelsInScene.first { (node: SCNNode) -> Bool in
+            sceneView.isNode(node, insideFrustumOf: pointOfView)
+        }
+
+        let modelsAreVisible = firstVisibleModel != nil
+        if modelsAreVisible != focusSquareLocal.isHidden {
+            focusSquareLocal.setHidden(to: modelsAreVisible)
+        }
+
         let hitTest = sceneView.hitTest(screenCenter, types: .existingPlaneUsingExtent)
         if let hitTestResult = hitTest.first {
-            print("Focus square hits a plane")
 
             let canAddNewModel = hitTestResult.anchor is ARPlaneAnchor
             focusSquareLocal.isClosed = canAddNewModel
         }
         else {
-            print("Focus square does not hit a plane")
-
             focusSquareLocal.isClosed = false
         }
     }

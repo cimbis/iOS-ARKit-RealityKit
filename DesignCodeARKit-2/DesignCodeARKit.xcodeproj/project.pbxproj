@@ -15,6 +15,7 @@
 		6A6E541920DAA59300886DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E541820DAA59300886DFD /* Assets.xcassets */; };
 		6A6E541C20DAA59300886DFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E541A20DAA59300886DFD /* LaunchScreen.storyboard */; };
 		6AFAF1EB20F151CA0045D744 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFAF1EA20F151CA0045D744 /* FocusSquare.swift */; };
+		D39A4C4F6787901446EE04B6 /* ViewController+ObjectAddition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D391C064C3028484CAC3F123 /* ViewController+ObjectAddition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		6A6E541B20DAA59300886DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A6E541D20DAA59300886DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AFAF1EA20F151CA0045D744 /* FocusSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
+		D391C064C3028484CAC3F123 /* ViewController+ObjectAddition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+ObjectAddition.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				6A6E541820DAA59300886DFD /* Assets.xcassets */,
 				6A6E541A20DAA59300886DFD /* LaunchScreen.storyboard */,
 				6A6E541520DAA59100886DFD /* Main.storyboard */,
+				D391C064C3028484CAC3F123 /* ViewController+ObjectAddition.swift */,
 			);
 			path = DesignCodeARKit;
 			sourceTree = "<group>";
@@ -105,6 +108,7 @@
 				TargetAttributes = {
 					6A6E540B20DAA59100886DFD = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1170;
 					};
 				};
 			};
@@ -149,6 +153,7 @@
 				6AFAF1EB20F151CA0045D744 /* FocusSquare.swift in Sources */,
 				6A6E541420DAA59100886DFD /* ViewController.swift in Sources */,
 				6A6E541020DAA59100886DFD /* AppDelegate.swift in Sources */,
+				D39A4C4F6787901446EE04B6 /* ViewController+ObjectAddition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,14 +300,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZ84G4P8A7;
 				INFOPLIST_FILE = DesignCodeARKit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cimbis.ar-lol";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -314,14 +319,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZ84G4P8A7;
 				INFOPLIST_FILE = DesignCodeARKit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cimbis.ar-lol";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
